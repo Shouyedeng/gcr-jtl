@@ -1,0 +1,41 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc-8 build active file",
+            "command": "/usr/bin/gcc-8",
+            "args": [
+                "-g",
+                "${workspaceFolder}/main.c",
+                "${workspaceFolder}/gcrChannel.c",
+                "${workspaceFolder}/gcrColl.c",
+                "${workspaceFolder}/gcrDebug.c",
+                "${workspaceFolder}/gcrEdge.c",
+                "${workspaceFolder}/gcrFeas.c",
+                "${workspaceFolder}/gcrFlags.c",
+                "${workspaceFolder}/gcrInit.c",
+                "${workspaceFolder}/gcrLib.c",
+                "${workspaceFolder}/gcrRiver.c",
+                "${workspaceFolder}/gcrRoute.c",
+                "${workspaceFolder}/gcrShwFlgs.c",
+                "${workspaceFolder}/gcrUnsplit.c",
+                "${workspaceFolder}/malloc.c",
+                "${workspaceFolder}/geometry.c",
+                "${workspaceFolder}/hash.c",
+                "${workspaceFolder}/lookup.c",
+                "${workspaceFolder}/rtrPin.c",
+                "${workspaceFolder}/search.c",
+                "-o",
+                "${workspaceFolder}/gcr"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}

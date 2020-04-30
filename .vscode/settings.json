@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cstdlib": "c",
+        "router.h": "c",
+        "database.h": "c"
+    }
+}
